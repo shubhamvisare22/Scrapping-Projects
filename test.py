@@ -41,10 +41,8 @@ class SurplusScrapper:
         
         self.acoount_id_list = [i['accountId'] for i in response['assetSearchResults'] ]
         self.asset_id_list = [i['assetId'] for i in response['assetSearchResults'] ]
-        
-        # print(len(self.acoount_id_list))
-        # print(len(self.asset_id_list))
-        
+
+        #  Scrapping starts from here. 
         for i,j in zip(self.acoount_id_list, self.asset_id_list):
             asset_url = f'https://maestro.lqdt1.com/assets/{j}/{i}/false'
             
@@ -69,12 +67,7 @@ class SurplusScrapper:
             seller_phone_list_number = asset_response['sellerContactPhone']
             self.seller_phone_list.append(self.seller_phone_list if seller_phone_list_number else '-' )
             
-            print(self.asset_name_list)
-            print(self.asset_auction_start_list)
-            print(self.asset_auction_end_list)
-            print(self.seller_name_list)
-            print(self.seller_email_list)
-            print(self.seller_phone_list)
+           
             
         return 
 
