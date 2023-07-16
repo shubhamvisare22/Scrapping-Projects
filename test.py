@@ -4,18 +4,16 @@ import json
 class SurplusScrapper:
     
     def __init__(self):
-        self.seller_name = []
-        self.seller_phone = []
-        self.seller_email = []
-        self.seller_website = []
-    
-    
-    def MainScript(self):
-        url = "https://maestro.lqdt1.com/search/list"
-
-        payload = json.dumps({"categoryIds":"","businessId":"AD","searchText":"*","isQAL":False,"locationId":None,"model":"","makebrand":"","auctionTypeId":None,"page":5,"displayRows":24,"sortField":"bestfit","sortOrder":"desc","sessionId":"497d15b1-b9c6-efb5-f960-ecefa17172f6","requestType":"search","responseStyle":"productsOnly","facets":["categoryName","auctionTypeID","condition","saleEventName","sellerDisplayName","product_pricecents","isReserveMet","hasBuyNowPrice","sellerType","doWarehouse","region","currencyTypeCode","categoryName","tierId"],"facetsFilter":["{!tag=product_category_external_id}product_category_external_id:\"t3\""],"timeType":"","sellerTypeId":None,"accountIds":[]})
+        self.seller_name_list = []
+        self.asset_name_list = []
+        self.seller_phone_list = []
+        self.seller_email_list = []
+        self.acoount_id_list = []
+        self.asset_id_list = []
+        self.asset_auction_start_list = []
+        self.asset_auction_end_list = []
         
-        headers = {
+        self.headers = {
         'Accept': 'application/json, text/plain, */*',
         'Accept-Language': 'en-US,en;q=0.9',
         'Content-Type': 'application/json',
@@ -28,10 +26,58 @@ class SurplusScrapper:
         'x-user-id': '-1',
         'x-user-timezone': 'Asia/Calcutta',
         }
+        
+        self.payload = json.dumps({"categoryIds":"","businessId":"AD","searchText":"*","isQAL":False,"locationId":None,"model":"","makebrand":"","auctionTypeId":None,"page":1,"displayRows":100,"sortField":"bestfit","sortOrder":"desc","sessionId":"497d15b1-b9c6-efb5-f960-ecefa17172f6","requestType":"search","responseStyle":"productsOnly","facets":["categoryName","auctionTypeID","condition","saleEventName","sellerDisplayName","product_pricecents","isReserveMet","hasBuyNowPrice","sellerType","doWarehouse","region","currencyTypeCode","categoryName","tierId"],"facetsFilter":["{!tag=product_category_external_id}product_category_external_id:\"t3\""],"timeType":"","sellerTypeId":None,"accountIds":[]})
+    
+    def make_request(self, url):
+        response = requests.request("POST", url, headers=self.headers, data=self.payload)
+        return response
+         
+    
+    def MainScript(self):
+        main_url = "https://maestro.lqdt1.com/search/list"
+        response = self.make_request(main_url)
+        response = json.loads(response.content)
+        
+        self.acoount_id_list = [i['accountId'] for i in response['assetSearchResults'] ]
+        self.asset_id_list = [i['assetId'] for i in response['assetSearchResults'] ]
+        
+        # print(len(self.acoount_id_list))
+        # print(len(self.asset_id_list))
+        
+        for i,j in zip(self.acoount_id_list, self.asset_id_list):
+            asset_url = f'https://maestro.lqdt1.com/assets/{j}/{i}/false'
+            
+            asset_response = self.make_request(asset_url)
+            asset_response = json.loads(asset_response.content)
+            
+            asset_name_list = asset_response['assetShortDesc']
+            self.asset_name_list.append(asset_name_list.strip() if asset_name_list else '-')
+            
+            asset_auction_start = asset_response['assetAuctionStartDate']
+            self.asset_auction_start_list.append(asset_auction_start.split('T')[0].strip() if asset_auction_start else '-' )
+            
+            asset_auction_end = asset_response['assetAuctionEndDate']
+            self.asset_auction_end_list.append(asset_response['assetAuctionEndDate'].split('T')[0].strip() if asset_auction_end else '-' )
+            
+            seller_name_list = asset_response['sellerContactName']
+            self.seller_name_list.append(seller_name_list if seller_name_list else '-')
+            
+            asset_seller_email_list = asset_response['sellerContactEmail']
+            self.seller_email_list.append(asset_seller_email_list if asset_seller_email_list else '-')
+            
+            seller_phone_list_number = asset_response['sellerContactPhone']
+            self.seller_phone_list.append(self.seller_phone_list if seller_phone_list_number else '-' )
+            
+            print(self.asset_name_list)
+            print(self.asset_auction_start_list)
+            print(self.asset_auction_end_list)
+            print(self.seller_name_list)
+            print(self.seller_email_list)
+            print(self.seller_phone_list)
+            
+        return 
 
-        response = requests.request("POST", url, headers=headers, data=payload)
-           # this is comment    
-        return response.json()
 
 if __name__ == '__main__':
     scrapper = SurplusScrapper()
