@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import pygsheets
 import pandas as pd
 import random
 from constants import user_agents
