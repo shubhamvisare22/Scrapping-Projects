@@ -1,0 +1,2 @@
+2024-01-23 18:09:32,751 - INFO - judgement_scrapper.py - 17 - get_captcha_value - Captcha value found: 6820
+2024-01-23 18:09:34,879 - INFO - judgement_scrapper.py - 45 - scrape_judgements - Judgments scraped successfully.

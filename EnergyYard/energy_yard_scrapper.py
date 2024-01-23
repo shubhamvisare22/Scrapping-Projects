@@ -5,8 +5,7 @@ import pandas as pd
 import re
 from retrying import retry
 import datetime
-import usaddress
-from constants import default_headers as def_headers
+from .config import default_headers as def_headers
 
 
 class EnergyScrapper():
@@ -32,25 +31,20 @@ class EnergyScrapper():
         response = requests.get(url, headers=self.default_headers)
         try:
             if response.status_code != 200:
-                raise ValueError(
-                    f"Request failed with status code {response.status_code}")
+                raise ValueError(f"Request failed with status code {response.status_code}")
         except Exception as e:
-            print(
-                f"Retry Exception while scrapping --> {url} --> {e} \nStatus code --> {response.status_code}")
+            print(f"Retry Exception while scrapping --> {url} --> {e} \nStatus code --> {response.status_code}")
         return response
 
     # DATA CLEANING AND EXTRACTION
     def extract_seller_phone_numbers(self, text):
-        phone_pattern = re.compile(
-            r'(?:Phone: |Phone 2: |Phone:|Phone 2:|Phone : |Phone 2 :|Phone2 : |Phone2:|Phone 2: |Call：)\s*\s*([^:\n]+?)\s*(?=\b(?:Phone|Phone 2|Web|Email|Fax| &nbspWeb| &nbspEmail| &nbspPhone 2|&nbspFax| )\b|$)')
+        phone_pattern = re.compile(r'(?:Phone: |Phone 2: |Phone:|Phone 2:|Phone : |Phone 2 :|Phone2 : |Phone2:|Phone 2: |Call：)\s*\s*([^:\n]+?)\s*(?=\b(?:Phone|Phone 2|Web|Email|Fax| &nbspWeb| &nbspEmail| &nbspPhone 2|&nbspFax| )\b|$)')
         phones = phone_pattern.findall(text)
         return list(set(phones)) if phones else '-'
 
     def extract_email(self, text):
-        email_pattern = re.compile(
-            r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b')
-        emails = [e.replace('https', '').replace('http', '').replace('%20', '').replace(' s', '').strip(
-        ) for e in email_pattern.findall(text.replace('.com', '.com ').replace('Web:', ' ').lower())]
+        email_pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b')
+        emails = [e.replace('https', '').replace('http', '').replace('%20', '').replace(' s', '').strip() for e in email_pattern.findall(text.replace('.com', '.com ').replace('Web:', ' ').lower())]
         return list(set(emails)) if emails else '-'
 
     def extract_fax(self, text):
@@ -60,18 +54,14 @@ class EnergyScrapper():
         return fax
 
     def extract_website(self, text):
-        websites = re.findall(r"(?i)\b(?:http://|https?://|www\.)\S+\b(?<!\W)",
-                              text.replace('.com', '.com ').replace('Web:', ' '))
-        unique_websites = list(set(re.sub(
-            r"(?i)^(?:http://|https?://)?", "", website.lower()) for website in websites))
+        websites = re.findall(r"(?i)\b(?:http://|https?://|www\.)\S+\b(?<!\W)",text.replace('.com', '.com ').replace('Web:', ' '))
+        unique_websites = list(set(re.sub(r"(?i)^(?:http://|https?://)?", "", website.lower()) for website in websites))
         return list(set(unique_websites)) if unique_websites else '-'
 
     def extract_name(self, text):
         if text:
-            name_pattern = re.compile(
-                r'(?: Contact:)\s*([^:\n]+)(?=\s+(?:Phone|Fax|Phone 2|Web|Email|&nbsp|  Call):|\n)')
-            name_pattern2 = re.compile(
-                r'Contact：(.*?)(?=\s*(?:Call|Phone|Fax|Phone 2|Web|Email|&nbsp|$))')
+            name_pattern = re.compile(r'(?: Contact:)\s*([^:\n]+)(?=\s+(?:Phone|Fax|Phone 2|Web|Email|&nbsp|  Call):|\n)')
+            name_pattern2 = re.compile(r'Contact：(.*?)(?=\s*(?:Call|Phone|Fax|Phone 2|Web|Email|&nbsp|$))')
             matches = re.findall(name_pattern, text) or re.findall(
                 name_pattern2, text)
             name = matches[0] if matches else '-'
@@ -80,8 +70,7 @@ class EnergyScrapper():
         return '-'
 
     def extract_product_phone(self, text):
-        replacements = ['call', 'CALL', '-summary',
-                        'Call：', 'FOR', 'PRICE', '%20']
+        replacements = ['call', 'CALL', '-summary','Call：', 'FOR', 'PRICE', '%20']
         cleaned_text = re.sub('|'.join(replacements), '', text).strip()
         return self.data_validation(cleaned_text) if cleaned_text and (cleaned_text[0].isdigit() or cleaned_text[0] == '+' or cleaned_text[0] == '(') else '-'
 
@@ -99,10 +88,8 @@ class EnergyScrapper():
         return str(text).replace('NOT SPECIFIED', '').replace('For Sale', ' ').strip().title()
 
     def process_product_address(self, p_tags, ul_tags, span_tags, product_name):
-        break_keywords = ['Email', 'http', 'Call',
-                          'call', 'Detailed', 'detailed', 'CALL']
-        continue_keywords = ['Contact', 'Contect',
-                             'contact', 'CONTACT', 'contect', f'{product_name}']
+        break_keywords = ['Email', 'http', 'Call','call', 'Detailed', 'detailed', 'CALL']
+        continue_keywords = ['Contact', 'Contect','contact', 'CONTACT', 'contect', f'{product_name}']
         product_address = ''
         producat_contact_name = ''
         for tag in p_tags:
@@ -143,11 +130,9 @@ class EnergyScrapper():
                         product_address += ' ' + text
 
         if producat_contact_name in product_address:
-            product_address = product_address.replace(
-                producat_contact_name, '')
+            product_address = product_address.replace(producat_contact_name, '')
         if '( Direct ph. +47 5553 8487 )' in product_address:
-            product_address = product_address.replace(
-                '( Direct ph. +47 5553 8487 )', '')
+            product_address = product_address.replace('( Direct ph. +47 5553 8487 )', '')
         return product_address.title().replace('\n', ' ').strip()
 
     def clean_product_name(self, text):
@@ -188,8 +173,7 @@ class EnergyScrapper():
             for i in main_page_divs[:1]:
 
                 seller_info_div1 = main_soup.find_all('div', 'col-xs-12')
-                seller_info_div2 = main_soup.find_all(
-                    'div', 'seller-modules-heading')
+                seller_info_div2 = main_soup.find_all('div', 'seller-modules-heading')
 
                 try:
 
@@ -211,10 +195,8 @@ class EnergyScrapper():
                         except Exception as e:
                             print('Product Request Exception:', e)
 
-                        product_soup = BeautifulSoup(
-                            product_response.content, 'html.parser')
-                        product_div = product_soup.find(
-                            'div', {'id': 'tab-description'})
+                        product_soup = BeautifulSoup(product_response.content, 'html.parser')
+                        product_div = product_soup.find('div', {'id': 'tab-description'})
 
                         ''' Information here getting scrapped from product pages,
                         finally compare the availabe information and store that to csv 
@@ -224,15 +206,13 @@ class EnergyScrapper():
                             '''-------------------------Seller Email ------------------------- '''
                             product_email = product_div.text
                             if seller_email != self.extract_email(product_email):
-                                seller_email = ', '.join(
-                                    email for email in self.extract_email(product_email))
+                                seller_email = ', '.join(email for email in self.extract_email(product_email))
 
                             '''------------------------- Seller Website ------------------------- '''
 
                             product_website = '  '.join([div.text.replace('.com', '.com  ').replace('www', ' www').replace('Call', ' Call').strip() for div in product_div])
                             if seller_website != self.extract_website(product_website):
-                                seller_website = ', '.join(
-                                    website for website in self.extract_website(product_website))
+                                seller_website = ', '.join(website for website in self.extract_website(product_website))
 
                             ''' ------------------------- Seller Phone Number -------------------------'''
 
@@ -248,8 +228,7 @@ class EnergyScrapper():
 
                             ''' ------------------------- Seller Company Name ------------------------- '''
 
-                            final_name1 = main_soup.find(
-                                'div', 'col-xs-12').h1 or main_soup.find('div', 'col-xs-12').h2
+                            final_name1 = main_soup.find('div', 'col-xs-12').h1 or main_soup.find('div', 'col-xs-12').h2
                             final_name1 = final_name1.text if final_name1 else ''
 
                             name1 = product_soup.find('div', 'col-md-7 col-sm-6 product-description').find(

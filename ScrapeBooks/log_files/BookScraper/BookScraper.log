@@ -1,0 +1,6 @@
+2024-01-23 17:14:23,345 - ERROR - books_scrapper.py - 91 - create_json - Error creating JSON file: module 'datetime' has no attribute 'now'
+2024-01-23 17:14:23,345 - INFO - books_scrapper.py - 117 - process_data - Data processing completed successfully.
+2024-01-23 17:17:08,026 - INFO - books_scrapper.py - 89 - create_json - JSON file created successfully: output_data_20240123171708.json
+2024-01-23 17:17:08,026 - INFO - books_scrapper.py - 117 - process_data - Data processing completed successfully.
+2024-01-23 17:25:28,006 - INFO - books_scrapper.py - 90 - create_json - JSON file created successfully: .\Data\Jsons\output_data_20240123172528.json
+2024-01-23 17:25:28,006 - INFO - books_scrapper.py - 120 - process_data - Data processing completed successfully.

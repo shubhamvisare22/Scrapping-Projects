@@ -1,0 +1,1002 @@
+[
+  {
+    "account_id": 23609,
+    "asset_id": 83,
+    "asset_name": "Heatec 30000 Gallon Horizontal Liquid Tank",
+    "asset_auction_start": "2024-01-17",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 551,
+    "asset_name": "Pumping Unit, Weatherford, 228-213-86",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 500,
+    "asset_name": "Pumping Unit, Weatherford, 228-213-86",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 542,
+    "asset_name": "Pumping Unit, Champion, C320D-305-100TH",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 543,
+    "asset_name": "Pumping Unit, Rig Master, 320",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 493,
+    "asset_name": "Pumping Unit, Weatherford, 228-213-86",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 520,
+    "asset_name": "Pumping Unit, National, 320-298C-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 546,
+    "asset_name": "Pumping Unit, Lufkin, C228D-246-86",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 508,
+    "asset_name": "Pumping Unit, American, D320-256-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 517,
+    "asset_name": "Pumping Unit, Weatherford, 228",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 485,
+    "asset_name": "Pumping Unit, Weatherford, 228-213-86",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 516,
+    "asset_name": "Pumping Unit, Baker, 640",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 490,
+    "asset_name": "Pumping Unit, Weatherford, 320-305-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 481,
+    "asset_name": "Pumping Unit, Darco, 320 D",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 489,
+    "asset_name": "Pumping Unit, Weatherford, 320-305-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 538,
+    "asset_name": "Pumping Unit, Chengdu Bode Petroleum, 320-305-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 558,
+    "asset_name": "Pumping Unit, PUR, C320-305-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 554,
+    "asset_name": "Pumping Unit, Weatherford, 320-305-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 550,
+    "asset_name": "Pumping Unit, National, 320",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 585,
+    "asset_name": "Pumping Unit, Weatherford, 320-305-100",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 15840,
+    "asset_id": 475,
+    "asset_name": "Pumping Unit, Lufkin, C-228D-246-86, with Electric Motor",
+    "asset_auction_start": "2024-01-05",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Patricia Hatton",
+    "seller_email": "patricia.hatton@liquidityservices.com",
+    "seller_phone": "+12816878818"
+  },
+  {
+    "account_id": 25704,
+    "asset_id": 7,
+    "asset_name": "Various used ball, gate, axial and other valves and fixtures, 1\"-30\" (30 qty)",
+    "asset_auction_start": "2023-12-26",
+    "asset_auction_end": "2024-12-31",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+4502070983792"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 129,
+    "asset_name": "2\" 150 Velan Check Valves, Stainless, Buttweld, UNUSED, Qty 8",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 6797,
+    "asset_id": 1947,
+    "asset_name": "L-Tank",
+    "asset_auction_start": "2024-01-12",
+    "asset_auction_end": "2024-01-26",
+    "seller_name": "Josue Loyola",
+    "seller_email": "jloyola@brazoscountytx.gov",
+    "seller_phone": "+19793614269"
+  },
+  {
+    "account_id": 25146,
+    "asset_id": 22,
+    "asset_name": "Heating Chamber",
+    "asset_auction_start": "2024-01-04",
+    "asset_auction_end": "2024-01-24",
+    "seller_name": "EMEA Customer Service",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+4802070983792"
+  },
+  {
+    "account_id": 25180,
+    "asset_id": 347,
+    "asset_name": "5 x Different Capacity Axial Fans",
+    "asset_auction_start": "2023-12-12",
+    "asset_auction_end": "2024-01-31",
+    "seller_name": "Willie Botha",
+    "seller_email": "Willie.Botha@liquidityservices.com",
+    "seller_phone": "+270720614659"
+  },
+  {
+    "account_id": 15913,
+    "asset_id": 1,
+    "asset_name": "Hydrocracker Reactor - QTY 2, 2009, 14.1' Inside Diameter x 121.4' T-T",
+    "asset_auction_start": "2023-07-05",
+    "asset_auction_end": "2024-05-17",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 16854,
+    "asset_id": 14,
+    "asset_name": "(2) UNUSED Coke Drums, 30\u20193\u201dDia X 139\u2019, SA-387 GR.11 CL.2 + SA-240 TP 410SS",
+    "asset_auction_start": "2023-05-19",
+    "asset_auction_end": "2024-03-31",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 17200,
+    "asset_id": 2,
+    "asset_name": "Hydrocracker Reactor, 12' ID X 56\u2019 7\u201dT-T (80\u2019 L), 2755psig @ 850F",
+    "asset_auction_start": "2022-08-23",
+    "asset_auction_end": "2024-12-30",
+    "seller_name": "Trey Valentino",
+    "seller_email": "energyprivatetreaty@liquidityservices.com",
+    "seller_phone": "+18327220288"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 130,
+    "asset_name": "Gate Valve, 20in, 300psi, Craft, UNUSED, Qty 1",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 131,
+    "asset_name": "Gate Valve, 14in, 300psi, Toyo, UNUSED, Qty 1",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 132,
+    "asset_name": "Gate Valve, 18in, 300psi, Newco, UNUSED, Qty 1",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 141,
+    "asset_name": "DANIELS 12\" 600 PISTON CHECK",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 108,
+    "asset_name": "Ball Valves, 6in, 300 class, Flanged, Bare Stem, Neles, Qty. 4",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 126,
+    "asset_name": "Gate Valve, 24in, 300psi, Craft, UNUSED, Qty 1",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 127,
+    "asset_name": "Gate Valve With EIM, 24in, 150psi, Craft, UNUSED, Qty 1",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 87,
+    "asset_name": "Check Valves, 6in, 1500psi, Buttweld, Newco, UNUSED, Qty 3",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 24134,
+    "asset_id": 142,
+    "asset_name": "24- 600 STREAM FLO CHECK VALVE",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 19381,
+    "asset_id": 401,
+    "asset_name": "Hydrogen Gas Plant",
+    "asset_auction_start": "2023-09-29",
+    "asset_auction_end": "2024-03-29",
+    "seller_name": "Caleb Sexson",
+    "seller_email": "customerservice@go-dove.com",
+    "seller_phone": "+12174245579"
+  },
+  {
+    "account_id": 21065,
+    "asset_id": 202,
+    "asset_name": "PUMP,WATER,WASHER,3363892,WHIRPOOL",
+    "asset_auction_start": "2024-01-10",
+    "asset_auction_end": "2024-01-24",
+    "seller_name": "-",
+    "seller_email": "-",
+    "seller_phone": "-"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 29,
+    "asset_name": "Aromatics Units",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 10,
+    "asset_name": "Diesel Hydrotreating Unit II",
+    "asset_auction_start": "2023-10-02",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 23,
+    "asset_name": "Propane Deasphalting Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 33,
+    "asset_name": "Flare Drum",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 28,
+    "asset_name": "Bitumen Production Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 12,
+    "asset_name": "Continuous Catalytic Reforming Unit (CCR)",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 34,
+    "asset_name": "Desalter Vessel",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 32,
+    "asset_name": "Propane Accumulator",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 20,
+    "asset_name": "Sulphur Recovery Unit II",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 25,
+    "asset_name": "MEK Dewaxing Unit",
+    "asset_auction_start": "2023-10-02",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 26,
+    "asset_name": "Lube Hydrofinishing Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 30,
+    "asset_name": "Utilities",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 21,
+    "asset_name": "Tail Gas Treatment Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 22,
+    "asset_name": "Electric Power Generation Plant (Steam Turbine Generators)",
+    "asset_auction_start": "2023-10-02",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 31,
+    "asset_name": "Transformers",
+    "asset_auction_start": "2023-10-02",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 7,
+    "asset_name": "Visbreaker Uni",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 5,
+    "asset_name": "Vacuum Distillation Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 9,
+    "asset_name": "Diesel/Jet Hydrotreating Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 2,
+    "asset_name": "Cogeneration Power Plant",
+    "asset_auction_start": "2023-10-02",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 1,
+    "asset_name": "Oil Refinery 110,000bpd",
+    "asset_auction_start": "2023-10-02",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 18,
+    "asset_name": "Sulphur Recovery Unit I",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 16,
+    "asset_name": "Hydrogen Pressure Swing Adsorption Unit (PSA)",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 11,
+    "asset_name": "SR Platforming Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 8,
+    "asset_name": "Naptha Hydrotreating Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 3,
+    "asset_name": "Atmospheric Crude Distillation Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 17,
+    "asset_name": "Sour Water Stripper Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 13,
+    "asset_name": "LPG/LSR Merox Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 4,
+    "asset_name": "Atmospheric Crude Distillation Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 6,
+    "asset_name": "Vacuum Distillation Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 19,
+    "asset_name": "Sour Water Stripper Unit II (Fenolic Feed/Total)",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 15,
+    "asset_name": "Gas Recovery & Hot Oil System",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 27,
+    "asset_name": "Paraffins Hydrogenation Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 14,
+    "asset_name": "Gas Treatment (ARU)/(Acid Gas Absorption) Unit",
+    "asset_auction_start": "2023-10-02",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 23271,
+    "asset_id": 24,
+    "asset_name": "Furfural Extraction Unit",
+    "asset_auction_start": "2022-10-12",
+    "asset_auction_end": "2024-10-01",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+35102070983792"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 2,
+    "asset_name": "Gorman-Rupp PAH6C60-6068H FT4 Prime Aire Plus Diesel-Driven Centrifugal Pump Skid",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 12,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer , 450scfm @100psig, 85-264V, 50/60Hz, w/ F142KD opt K12_F9_ dust filters",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 45,
+    "asset_name": "2ea Autoclave Engineers 2B6S20M9-AOHYGLSM Pneumatic Actuated Ball Valves",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 10,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer , 450scfm @100psig, 85-264V, 50/60Hz, w/ F142KD opt K12_F9_ dust filters",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 51,
+    "asset_name": "HEX Industries HA816-SVS N/O/A Vaporizer",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 41,
+    "asset_name": "2ea Autoclave Engineers 2B6S10L8-AOHYGLSM Pneumatic Actuated Ball Valves",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 40,
+    "asset_name": "2ea Autoclave Engineers 2B6S10L8-AOHYGLSM Pneumatic Actuated Ball Valves",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 13,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer , 450scfm @100psig, 85-264V, 50/60Hz, w/ F142KD opt K12_F9_ dust filters",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 3,
+    "asset_name": "Gorman-Rupp PAH6C60-6068H FT4 Prime Aire Plus Diesel-Driven Centrifugal Pump Skid",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 11,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer , 450scfm @100psig, 85-264V, 50/60Hz, w/ F142KD opt K12_F9_ dust filters",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 42,
+    "asset_name": "2ea Autoclave Engineers 2B6S10L8-AOHYGLSM Pneumatic Actuated Ball Valves",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 43,
+    "asset_name": "2ea Autoclave Engineers 2B6S20M9-AOHYGLSM Pneumatic Actuated Ball Valves",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 47,
+    "asset_name": "Akon Insulated Curtain, 120M",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25650,
+    "asset_id": 44,
+    "asset_name": "2ea Autoclave Engineers 2B6S20M9-AOHYGLSM Pneumatic Actuated Ball Valves",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-01",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25910,
+    "asset_id": 19,
+    "asset_name": "Gorman-Rupp PAH6C60-6068H FT4 Prime Aire Plus Diesel-Driven Centrifugal Pump Skid",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25910,
+    "asset_id": 21,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25910,
+    "asset_id": 18,
+    "asset_name": "Gorman-Rupp PAH6C60-6068H FT4 Prime Aire Plus Diesel-Driven Centrifugal Pump Skid",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25910,
+    "asset_id": 22,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25910,
+    "asset_id": 23,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 25910,
+    "asset_id": 20,
+    "asset_name": "Kaeser KAD-450 Regenerative Desiccant Air Dryer",
+    "asset_auction_start": "2023-12-28",
+    "asset_auction_end": "2024-02-02",
+    "seller_name": "Customer Service",
+    "seller_email": "Customerservice@go-dove.com",
+    "seller_phone": "+18006651042"
+  },
+  {
+    "account_id": 1131,
+    "asset_id": 490,
+    "asset_name": "Generac 7000 Watt Generator",
+    "asset_auction_start": "2024-01-11",
+    "asset_auction_end": "2024-01-25",
+    "seller_name": "Brenda Karr",
+    "seller_email": "karrb@lcfla.com",
+    "seller_phone": "+13867585407"
+  },
+  {
+    "account_id": 25146,
+    "asset_id": 27,
+    "asset_name": "Industrial Vacuum Cleaner",
+    "asset_auction_start": "2024-01-04",
+    "asset_auction_end": "2024-01-24",
+    "seller_name": "EMEA Customer Service",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+4802070983792"
+  },
+  {
+    "account_id": 25146,
+    "asset_id": 21,
+    "asset_name": "Wet Floor Cleaner",
+    "asset_auction_start": "2024-01-04",
+    "asset_auction_end": "2024-01-24",
+    "seller_name": "EMEA Customer Service",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+4802070983792"
+  },
+  {
+    "account_id": 25704,
+    "asset_id": 4,
+    "asset_name": "Chiller Unit for Natural Gas Treatment",
+    "asset_auction_start": "2023-12-04",
+    "asset_auction_end": "2025-12-31",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+4502070983792"
+  },
+  {
+    "account_id": 25704,
+    "asset_id": 3,
+    "asset_name": "Glycol Dehydration (TEG) Units for Natural Gas Treatment (2 qty)",
+    "asset_auction_start": "2023-12-04",
+    "asset_auction_end": "2025-12-31",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+4502070983792"
+  },
+  {
+    "account_id": 25704,
+    "asset_id": 6,
+    "asset_name": "Hydrogen Sulfide Incinerator for Natural Gas Treatment",
+    "asset_auction_start": "2023-12-09",
+    "asset_auction_end": "2025-12-31",
+    "seller_name": "EMEA Customer Services",
+    "seller_email": "go-doveEMEA@liquidityservices.com",
+    "seller_phone": "+4502070983792"
+  }
+]
