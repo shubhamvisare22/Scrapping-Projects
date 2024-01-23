@@ -17,3 +17,5 @@ headers = {
 
 payload = json.dumps({"categoryIds": "", "businessId": "AD", "searchText": "*", "isQAL": False, "locationId": None, "model": "", "makebrand": "", "auctionTypeId": None, "page": 1, "displayRows": 100, "sortField": "bestfit", "sortOrder": "desc", "sessionId": "497d15b1-b9c6-efb5-f960-ecefa17172f6", "requestType": "search", "responseStyle": "productsOnly", "facets": [
     "categoryName", "auctionTypeID", "condition", "saleEventName", "sellerDisplayName", "product_pricecents", "isReserveMet", "hasBuyNowPrice", "sellerType", "doWarehouse", "region", "currencyTypeCode", "categoryName", "tierId"], "facetsFilter": ["{!tag=product_category_external_id}product_category_external_id:\"t3\""], "timeType": "", "sellerTypeId": None, "accountIds": []})
+
+main_url = "https://maestro.lqdt1.com/search/list"

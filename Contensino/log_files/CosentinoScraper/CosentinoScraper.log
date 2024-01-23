@@ -1,3 +1,5 @@
 2024-01-23 17:59:01,536 - ERROR - contesino_scrapper.py - 69 - process_data - Error processing data: type object 'datetime.datetime' has no attribute 'datetime'
 2024-01-23 18:04:45,369 - INFO - contesino_scrapper.py - 63 - create_json - JSON file created successfully: .\Data\Jsons\Contesino_20240123180445.json
 2024-01-23 18:04:45,369 - INFO - contesino_scrapper.py - 81 - process_data - Data processing completed successfully.
+2024-01-23 18:52:20,660 - INFO - contesino_scrapper.py - 63 - create_json - JSON file created successfully: .\Data\Jsons\Contesino_20240123185220.json
+2024-01-23 18:52:20,660 - INFO - contesino_scrapper.py - 81 - process_data - Data processing completed successfully.

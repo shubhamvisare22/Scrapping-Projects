@@ -57,7 +57,7 @@ class CosentinoScraper:
     def create_json(self):
         try:
             timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-            json_file_name = f'.\Data\Jsons\Contesino_{timestamp}.json'
+            json_file_name = f'.\Data\Jsons\{timestamp}.json'
             with open(json_file_name, 'w') as json_file:
                 json.dump(self.data_list, json_file, indent=2)
             self.logger.info(f"JSON file created successfully: {json_file_name}")

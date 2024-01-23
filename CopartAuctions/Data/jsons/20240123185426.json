@@ -1,0 +1,652 @@
+[
+  {
+    "SaleName": "CT - Hartford",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "CT - Hartford",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "CT - Hartford",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "DC - Washington DC",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "DC - Washington DC",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "DE - Seaford",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "DE - Seaford",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "DE - Seaford",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Miami North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Miami North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Ocala",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Ocala",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Orlando South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Orlando South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Punta Gorda South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Tampa South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Tampa South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - Tampa South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - West Palm Beach",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "FL - West Palm Beach",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "GA - Atlanta South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "GA - Atlanta South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "GA - Atlanta South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "GA - Atlanta West",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "GA - Augusta",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "GA - Tifton",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "GA - Tifton",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "IN - Cicero",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "IN - Cicero",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "IN - Indianapolis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "IN - Indianapolis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MD - Baltimore East",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MD - Baltimore East",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MD - Baltimore East",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MI - Detroit",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MI - Detroit",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MI - Detroit",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MI - Detroit",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "MI - Detroit",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NC - Raleigh",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NH - Candia",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NH - Candia",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NJ - Glassboro East",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NJ - Glassboro East",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NJ - Glassboro West",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NJ - Somerville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NJ - Somerville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NY - Newburgh",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NY - Newburgh",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "NY - Newburgh",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "OH - Columbus",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "OH - Columbus",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "OH - Columbus",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "PA - Harrisburg",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "PA - Harrisburg",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "PA - Philadelphia",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "PA - Philadelphia",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "QC - Montreal",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "QC - Montreal",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "TN - Knoxville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "TN - Knoxville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "TN - Knoxville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "TN - Knoxville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "TN - Knoxville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "TN - Knoxville",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "VA - Hampton",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "VA - Hampton",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "VA - Hampton",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "15:00:00"
+  },
+  {
+    "SaleName": "Atlantic Canada Auction",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Atlantic Canada Auction",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Atlantic Canada Auction",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Electric Vehicle Auction",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Electric Vehicle Auction",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Electric Vehicle Auction",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Electric Vehicle Auction",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Heavy Truck, Trailer, Rv Clean Title Sale",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "Heavy Truck, Trailer, Rv Clean Title Sale",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "17:00:00"
+  },
+  {
+    "SaleName": "AL - Birmingham",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "AL - Birmingham",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "AL - Birmingham",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "AL - Birmingham",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "AL - Birmingham",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "AL - Mobile South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "IL - Chicago North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "IL - Chicago North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "KS - Kansas City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "KS - Kansas City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "KS - Kansas City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "LA - Baton Rouge",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MN - Minneapolis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MN - Minneapolis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MN - Minneapolis North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MN - Minneapolis North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MN - Minneapolis North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MN - Minneapolis North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MO - Columbia",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MO - Columbia",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MO - St. Louis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "MO - St. Louis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "NE - Lincoln",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "NE - Lincoln",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "NE - Lincoln",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "NE - Lincoln",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "OK - Oklahoma City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "OK - Oklahoma City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TN - Memphis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TN - Memphis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TN - Memphis",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Amarillo",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Corpus Christi",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Ft. Worth",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Ft. Worth",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Houston",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Houston",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Houston",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Houston",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "TX - Houston",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "WI - Madison South",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "18:00:00"
+  },
+  {
+    "SaleName": "AB - Calgary",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "AB - Calgary",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "AZ - Phoenix North",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "CO - Denver",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "CO - Denver",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "CO - Denver",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "CO - Denver Central",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "CO - Denver Central",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "MT - Helena",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "SD - Rapid City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "UT - Salt Lake City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  },
+  {
+    "SaleName": "UT - Salt Lake City",
+    "AuctionDate": "2024-01-23",
+    "AuctionTime": "19:00:00"
+  }
+]

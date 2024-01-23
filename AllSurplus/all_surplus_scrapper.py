@@ -3,6 +3,7 @@ import json
 import config
 from logs import Logger  
 import datetime
+import pandas as pd
 
 class SurplusScrapper:
 
@@ -30,14 +31,14 @@ class SurplusScrapper:
             asset_response = SurplusScrapper.make_request(asset_url)
 
             data_dict = {
-                'account_id': account_id,
-                'asset_id': asset_id,
-                'asset_name': asset_response.get('assetShortDesc', '').strip() or '-',
-                'asset_auction_start': asset_response.get('assetAuctionStartDate', '').split('T')[0].strip() or '-',
-                'asset_auction_end': asset_response.get('assetAuctionEndDate', '').split('T')[0].strip() or '-',
-                'seller_name': asset_response.get('sellerContactName', '') or '-',
-                'seller_email': asset_response.get('sellerContactEmail', '') or '-',
-                'seller_phone': asset_response.get('sellerContactPhone', '') or '-',
+                'AccountId': account_id,
+                'AssetId': asset_id,
+                'AssetName': asset_response.get('assetShortDesc', '').strip() or '-',
+                'AssetAuctionStart': asset_response.get('assetAuctionStartDate', '').split('T')[0].strip() or '-',
+                'AssetAuctionEnd': asset_response.get('assetAuctionEndDate', '').split('T')[0].strip() or '-',
+                'SellerName': asset_response.get('sellerContactName', '') or '-',
+                'SellerEmail': asset_response.get('sellerContactEmail', '') or '-',
+                'SellerPhone': asset_response.get('sellerContactPhone', '') or '-',
             }
 
             SurplusScrapper.data_list.append(data_dict)
@@ -47,12 +48,15 @@ class SurplusScrapper:
 
     @staticmethod
     def main_script():
-        main_url = "https://maestro.lqdt1.com/search/list"
-        response = SurplusScrapper.make_request(main_url)
+        response = SurplusScrapper.make_request(config.main_url)
 
         if response:
             for result in response.get('assetSearchResults', []):
                 SurplusScrapper.scrape_asset_data(result)
+            timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+            csv_file_name = f'.\Data\CSV\{timestamp}.csv'
+            df = pd.DataFrame(SurplusScrapper.data_list)
+            df.to_csv(csv_file_name)
             return True
         else:
             return False
@@ -61,7 +65,7 @@ class SurplusScrapper:
     def create_json():
         try:
             timestamp = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-            json_file_name = f'AllSurplus\Dataoutput_data_{timestamp}.json'
+            json_file_name = f'.\Data\Jsons\{timestamp}.json'
             with open(json_file_name, 'w') as json_file:
                 json.dump(SurplusScrapper.data_list, json_file, indent=2)
             SurplusScrapper.logger.info(f"JSON file created successfully: {json_file_name}")

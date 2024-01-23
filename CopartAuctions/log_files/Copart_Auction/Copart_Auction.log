@@ -1,1 +1,5 @@
 2024-01-23 17:28:53,580 - INFO - copart_auction_scrapper.py - 65 - create_json - JSON file created successfully: .\Data\jsons\output_data_20240123172853.json
+2024-01-23 18:54:26,116 - INFO - copart_auction_scrapper.py - 65 - create_json - JSON file created successfully: .\Data\jsons\output_data_20240123185426.json
+2024-01-23 20:58:38,991 - ERROR - copart_auction_scrapper.py - 56 - todays_auctions - Error fetching auction data: Expecting value: line 1 column 1 (char 0)
+2024-01-23 20:58:39,006 - INFO - copart_auction_scrapper.py - 80 - save_to_csv - CSV file created successfully: .\Data\csv\20240123205838.csv
+2024-01-23 20:58:39,006 - INFO - copart_auction_scrapper.py - 65 - create_json - JSON file created successfully: .\Data\jsons\20240123205839.json

@@ -45,13 +45,13 @@ class MainScraper:
                     item.get("auctionDateTimeInUTC", '-'))
 
                 data_dict = {
-                    'Sale Name': sale_name,
-                    'Auction Date': date,
-                    'Auction Time': time
+                    'SaleName': sale_name,
+                    'AuctionDate': date,
+                    'AuctionTime': time
                 }
 
                 MainScraper.data_list.append(data_dict)
-
+        
         except Exception as e:
             MainScraper.logger.error(f"Error fetching auction data: {e}")
     
@@ -59,7 +59,7 @@ class MainScraper:
     def create_json():
         try:
             timestamp = datetime.now().strftime("%Y%m%d%H%M%S") 
-            json_file_name = f'.\Data\jsons\output_data_{timestamp}.json'
+            json_file_name = f'.\Data\jsons\{timestamp}.json'
             with open(json_file_name, 'w') as json_file:
                 json.dump(MainScraper.data_list, json_file, indent=2)
             MainScraper.logger.info(f"JSON file created successfully: {json_file_name}")
@@ -73,7 +73,6 @@ class MainScraper:
             df = pd.DataFrame(MainScraper.data_list)
             timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
             file_name = f'.\Data\csv\{timestamp}.csv'
-
             if os.path.exists(file_name):
                 os.remove(file_name)
 
@@ -125,7 +124,7 @@ class MainScraper:
         try:
             MainScraper.todays_auctions()
             if save_to_json:
-                # MainScraper.save_to_csv()
+                MainScraper.save_to_csv()
                 MainScraper.create_json()
             if save_to_db:
                 MainScraper.save_to_db()

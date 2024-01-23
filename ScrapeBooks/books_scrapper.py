@@ -62,17 +62,17 @@ class BookScraper:
                     attrs = '-'
 
                 data_dict = {
-                    'Book Name': name,
-                    'Book Price': price,
+                    'BookName': name,
+                    'BookPrice': price,
                     'Ratings': attrs,
                     'Description': desc,
                     'UPC': upc,
-                    'Product Type': product_type,
-                    'Price Excluding Taxes': price_ex_tax,
-                    'Price Including Taxes': price_inc_tax,
-                    'Total Taxes': tax,
-                    'Stocks Availability': availability,
-                    'Total Reviews': total_reviews
+                    'ProductType': product_type,
+                    'PriceExcludingTaxes': price_ex_tax,
+                    'PriceIncludingTaxes': price_inc_tax,
+                    'TotalTaxes': tax,
+                    'StocksAvailability': availability,
+                    'TotalReviews': total_reviews
                 }
 
                 cls.data_list.append(data_dict)
